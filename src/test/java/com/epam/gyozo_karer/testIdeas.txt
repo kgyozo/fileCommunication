@@ -1,0 +1,7 @@
+FileWatcher
+
+use the correct fileseparator
+is path Variable a path
+is filename variable a file
+are the path and the file exist
+has a right to read the file 
