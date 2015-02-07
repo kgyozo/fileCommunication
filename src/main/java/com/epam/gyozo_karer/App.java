@@ -13,7 +13,7 @@ public class App
     {
 //        FileWatcher watcher = new FileWatcher("d://Trainings//InterviewPreparationWorkspace//test", "alma.txt");
     	WatchableFile file = new WatchableFile();
-    	file.setPath("d:/Trainings/InterviewPreparationWorkspace/test");
+    	file.setPath("e:/Gyozo/sts-bundle");
     	file.setFileName("alma.txt");
     	List<WatchableFile> files = new LinkedList<>();
     	files.add(file);
