@@ -140,6 +140,7 @@ public class FileWatcher {
 						event.setFileEvent(ENTRY_MODIFY);
 						event.setPath(dir.toString());
 						event.setFileName(newPath.toString());
+//						event.setFileName(newPath);
 						this.observ.notification(event);
 					}
 				} else if (ENTRY_DELETE == kind) {
